@@ -13,8 +13,13 @@ White: #FFF
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   color: #1A1A1A;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
 }
 
 nav {
@@ -62,14 +67,98 @@ nav a:hover {
 
 .section1-title {
   color: #FFF;
-  font-size: 75px;
+  font-size: 65px;
   font-weight: 100;
   margin-bottom: 25px;
 }
 
 .section1-text {
   color: #FFF;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 100;
   margin-bottom: 5px;
+}
+
+/* Section 2 */
+
+.section2-title {
+  text-align: center;
+  margin: 30px;
+  font-size: 30px;
+}
+
+.spotify-info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 80px;
+}
+
+.spotify-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px;
+  max-width: 250px;
+}
+
+.spotify-info h6 {
+  color: #00B172;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.spotify-info p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.icon {
+  width: 120px;
+}
+
+/* Section 3 */
+
+#section3 {
+  background-color: #00B172;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+  padding: 80px;
+  background-image: url('../images/spotify-icon-white.png');
+  background-repeat: no-repeat;
+  background-size: 130px;
+  background-position: center;
+}
+
+#section3 img {
+  width: 23vw;
+}
+
+.section3-title {
+  color: #FFF;
+  font-size: 40px;
+  border-bottom: #FFF 4px solid;
+  max-width: fit-content;
+  padding: 8px;
+}
+
+.section3-info {
+  max-width: 25vw;
+}
+
+.section3-info h6 {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+.section3-info p {
+  color: #FFF;
+  font-size: 18px;
+
 }
